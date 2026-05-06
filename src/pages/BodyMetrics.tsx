@@ -43,7 +43,7 @@ function OCRPreviewModal({ data, onConfirm, onClose }: OCRPreviewModalProps) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/50">
-      <div className="bg-white w-full max-w-md rounded-t-3xl p-5 max-h-[85vh] overflow-y-auto">
+      <div className="bg-white w-full max-w-md rounded-t-3xl p-5 pb-10 max-h-[85vh] overflow-y-auto">
         <div className="flex items-center justify-between mb-4">
           <h2 className="font-semibold">确认识别数据</h2>
           <button onClick={onClose}><X size={20} /></button>
@@ -126,7 +126,7 @@ function AddMetricModal({ userId, onAdd, onClose }: AddMetricModalProps) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/50">
-      <div className="bg-white w-full max-w-md rounded-t-3xl p-5 max-h-[90vh] overflow-y-auto">
+      <div className="bg-white w-full max-w-md rounded-t-3xl p-5 pb-10 max-h-[90vh] overflow-y-auto">
         <div className="flex items-center justify-between mb-4">
           <h2 className="font-semibold">手动录入指标</h2>
           <button onClick={onClose}><X size={20} /></button>

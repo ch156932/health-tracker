@@ -62,7 +62,7 @@ function AddExerciseModal({ date, userId, userWeight, onClose, onAdd }: AddExerc
 
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/50">
-      <div className="bg-white w-full max-w-md rounded-t-3xl p-5 space-y-4 max-h-[90vh] overflow-y-auto">
+      <div className="bg-white w-full max-w-md rounded-t-3xl p-5 pb-10 space-y-4 max-h-[90vh] overflow-y-auto">
         <div className="flex items-center justify-between">
           <h2 className="text-base font-semibold">添加运动</h2>
           <button onClick={onClose}><X size={20} /></button>

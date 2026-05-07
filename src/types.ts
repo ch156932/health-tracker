@@ -202,4 +202,36 @@ export const EXERCISE_DATABASE: ExerciseItem[] = [
   { type: '球类', name: '羽毛球', metValue: 7.0, defaultDuration: 45 },
   { type: '其他', name: '舞蹈', metValue: 6.5, defaultDuration: 45 },
   { type: '其他', name: '太极拳', metValue: 3.5, defaultDuration: 45 },
+  // 步行
+  { type: '步行', name: '慢走', metValue: 2.8, defaultDuration: 45 },
+  { type: '步行', name: '散步', metValue: 2.5, defaultDuration: 60 },
+  { type: '步行', name: '健步走', metValue: 3.8, defaultDuration: 45 },
+  { type: '步行', name: '爬山', metValue: 7.0, defaultDuration: 60 },
+  { type: '步行', name: '徒步', metValue: 6.0, defaultDuration: 90 },
+  // 球类补充
+  { type: '球类', name: '羽毛球(休闲)', metValue: 4.5, defaultDuration: 60 },
+  { type: '球类', name: '羽毛球(激烈)', metValue: 7.0, defaultDuration: 45 },
+  { type: '球类', name: '网球', metValue: 7.3, defaultDuration: 60 },
+  { type: '球类', name: '排球', metValue: 6.0, defaultDuration: 60 },
+  { type: '球类', name: '高尔夫', metValue: 4.8, defaultDuration: 90 },
+  { type: '球类', name: '台球', metValue: 2.5, defaultDuration: 60 },
+  // 健身
+  { type: '力量', name: '平板支撑', metValue: 4.0, defaultDuration: 10 },
+  { type: '力量', name: '哑铃训练', metValue: 5.5, defaultDuration: 30 },
+  { type: '力量', name: '深蹲', metValue: 5.0, defaultDuration: 20 },
+  { type: '力量', name: '卷腹/仰卧起坐', metValue: 4.5, defaultDuration: 15 },
+  { type: '力量', name: '引体向上', metValue: 6.0, defaultDuration: 15 },
+  // 有氧补充
+  { type: '有氧', name: '健身操', metValue: 7.5, defaultDuration: 45 },
+  { type: '有氧', name: '动感单车', metValue: 8.5, defaultDuration: 45 },
+  { type: '有氧', name: '游泳(仰泳)', metValue: 6.0, defaultDuration: 40 },
+  { type: '有氧', name: '跑步机', metValue: 8.0, defaultDuration: 30 },
+  { type: '有氧', name: '广场舞', metValue: 5.5, defaultDuration: 60 },
+  // 休闲
+  { type: '休闲', name: '骑马', metValue: 4.0, defaultDuration: 60 },
+  { type: '休闲', name: '钓鱼', metValue: 2.0, defaultDuration: 120 },
+  { type: '休闲', name: '园艺/劳动', metValue: 3.5, defaultDuration: 60 },
+  { type: '休闲', name: '遛狗', metValue: 3.0, defaultDuration: 40 },
+  { type: '休闲', name: '购物逛街', metValue: 2.5, defaultDuration: 90 },
+  { type: '休闲', name: '做家务', metValue: 3.0, defaultDuration: 60 },
 ];
